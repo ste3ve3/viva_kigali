@@ -1,4 +1,4 @@
-# cnevent
+# Viva Kigali
 
 Event management system
 
