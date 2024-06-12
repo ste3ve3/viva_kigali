@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "235005516376",
+    "project_id": "eventful-ca910",
+    "storage_bucket": "eventful-ca910.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235005516376:android:aa9ff8f8b6c2e4df4c082d",
+        "android_client_info": {
+          "package_name": "com.cninfotech.cnevent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZls9a2ahKzKpH_jBfbm11zRaVXD_SYLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

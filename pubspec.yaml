@@ -1,0 +1,81 @@
+name: cnevent
+description: Event management system
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  intl: ^0.19.0
+  path_provider: ^2.1.1
+  dio: ^5.4.0
+  awesome_dio_interceptor: ^1.0.0
+  # bottom_navy_bar: ^6.0.0
+  flutter_staggered_grid_view: ^0.7.0
+  ticket_material: ^0.3.1
+  syncfusion_flutter_barcodes: ^23.2.7
+  ticket_widget: ^1.0.2
+  in_app_review: ^2.0.8
+  fluttertoast: ^8.2.4
+  flutter_slidable: ^3.0.1
+  lottie: ^2.7.0
+  dropdown_button2: ^2.3.9
+  page_view_dot_indicator: ^2.3.0
+  flutter_widget_from_html: ^0.14.10
+  carousel_slider: ^4.2.1
+  google_mobile_ads: ^4.0.0
+  firebase_core: ^2.24.2
+  firebase_messaging: ^14.7.10
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.10.0"
+  change_app_package_name:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_logo.jpg"
+  adaptive_icon_background : "#FFFFFF"
+  adaptive_icon_foreground : "assets/icons/app_logo.png"
+  min_sdk_android: 21
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: GoogleSans
+      fonts:
+        - asset: assets/fonts/google_sans.ttf
+
+    - family: CreditCard
+      fonts:
+        - asset: assets/fonts/credit_card_font.otf
+
+  assets:
+    - assets/images/
+    - assets/ca/
+    - assets/icons/
+    - assets/fonts/
+
